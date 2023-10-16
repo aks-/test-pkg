@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert';
-import changeUrl from './index.js';
+import changeUrl from './lib/index.js';
 
 test('changeUrl', (t) => {
     const url = 'https://www.google.com';
